@@ -1,0 +1,157 @@
+.detail-tela {
+  background-color: #252440;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.detail-tela .div {
+  background-color: #252440;
+  height: 1076px;
+  position: relative;
+  width: 1440px;
+}
+
+.detail-tela .header {
+  background-color: transparent;
+  height: 87px;
+  left: 100px;
+  position: absolute;
+  top: 38px;
+  width: 1240px;
+}
+
+.detail-tela .whatsapp-logo {
+  height: 21px !important;
+  left: 1219px !important;
+  position: absolute !important;
+  top: 30px !important;
+  width: 21px !important;
+}
+
+.detail-tela .instagram-1 {
+  height: 19px !important;
+  left: 1185px !important;
+  position: absolute !important;
+  top: 32px !important;
+  width: 19px !important;
+}
+
+.detail-tela .logotipo-branco {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 122px;
+}
+
+.detail-tela .mode {
+  height: 19px;
+  left: 1152px;
+  object-fit: cover;
+  position: absolute;
+  top: 32px;
+  width: 19px;
+}
+
+.detail-tela .breadcrumbs {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+  left: 176px;
+  position: absolute;
+  top: 30px;
+}
+
+.detail-tela .button-instance {
+  flex: 0 0 auto !important;
+}
+
+.detail-tela .design-component-instance-node {
+  color: #bcbcbc66 !important;
+}
+
+.detail-tela .button-divider {
+  flex: 0 0 auto !important;
+  position: relative !important;
+}
+
+.detail-tela .tela-pinteiro {
+  height: 797px;
+  left: 100px;
+  position: absolute;
+  top: 193px;
+  width: 1245px;
+}
+
+.detail-tela .diagrama-tela {
+  height: 289px;
+  left: 951px;
+  object-fit: cover;
+  position: absolute;
+  top: 508px;
+  width: 289px;
+}
+
+.detail-tela .pinteiro-tabela {
+  height: 194px;
+  left: 951px;
+  object-fit: cover;
+  position: absolute;
+  top: 271px;
+  width: 290px;
+}
+
+.detail-tela .pinteiro-detalhe {
+  height: 228px;
+  left: 950px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 290px;
+}
+
+.detail-tela .overlap-group {
+  background-color: #1d1932;
+  border-radius: 18px;
+  height: 797px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 503px;
+}
+
+.detail-tela .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 44px;
+  width: 153px;
+}
+
+.detail-tela .a-tela-alambrado-uma {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 116px;
+  width: 442px;
+}
+
+.detail-tela .tabela-alambrado {
+  height: 200px;
+  left: 551px;
+  position: absolute;
+  top: 0;
+  width: 351px;
+}

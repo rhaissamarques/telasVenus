@@ -18,6 +18,7 @@ import { useNavigate } from "react-router-dom";
 export const HomeVenusDark = () => {
   const AlambradoDark = useNavigate();
   const OnduladaDark = useNavigate();
+  const PinteiroDark = useNavigate();
 
   const handleClickAlambradoDark = () => {
     AlambradoDark('/alambrado-dark')
@@ -25,6 +26,10 @@ export const HomeVenusDark = () => {
 
   const handleClickOnduladaDark = () => {
     OnduladaDark('/ondulada-dark')
+  }
+
+  const handleClickPinteiroDark = () => {
+    PinteiroDark('/pinteiro-dark')
   }
 
   return (
@@ -353,7 +358,9 @@ export const HomeVenusDark = () => {
                     Cercamento de granjas
                   </p>
 
-                  <button className="btn">
+                  <button className="btn"
+                    onClick={handleClickPinteiroDark}
+                  >
                     <div className="div-wrapper">
                       <div className="text-wrapper-2">Saiba Mais</div>
                     </div>
