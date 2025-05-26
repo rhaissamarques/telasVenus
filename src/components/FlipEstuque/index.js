@@ -1,0 +1,1 @@
+export { FlipEstuque } from "./FlipEstuque";

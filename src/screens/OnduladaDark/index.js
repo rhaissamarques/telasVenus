@@ -1,0 +1,1 @@
+export { DetailTelaOndulada } from "./DetailTelaOndulada";

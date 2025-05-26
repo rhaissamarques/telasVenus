@@ -1,0 +1,727 @@
+.home-venus-dark {
+  background-color: #252440;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-venus-dark .div-2 {
+  background-color: #252440;
+  height: 2609px;
+  position: relative;
+  width: 1440px;
+}
+
+.home-venus-dark .overlap {
+  height: 2261px;
+  left: 100px;
+  position: absolute;
+  top: 167px;
+  width: 1240px;
+}
+
+.home-venus-dark .content {
+  height: 2261px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1240px;
+}
+
+.home-venus-dark .grid-arames {
+  height: 897px;
+  left: 0;
+  position: absolute;
+  top: 1364px;
+  width: 1240px;
+}
+
+.home-venus-dark .overlap-wrapper {
+  height: 433px;
+  left: 316px;
+  position: absolute;
+  top: 464px;
+  width: 296px;
+}
+
+.home-venus-dark .overlap-2 {
+  background-color: #1d1932;
+  border-radius: 18px;
+  height: 433px;
+  position: relative;
+  width: 292px;
+}
+
+.home-venus-dark .text-wrapper {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+  width: 157px;
+}
+
+.home-venus-dark .bwg {
+  height: 191px;
+  left: 22px;
+  position: absolute;
+  top: 18px;
+  width: 247px;
+}
+
+.home-venus-dark .p {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 235px;
+}
+
+.home-venus-dark .btn {
+  all: unset;
+  box-sizing: border-box;
+  height: 40px;
+  left: 21px;
+  position: absolute;
+  top: 372px;
+  width: 253px;
+}
+
+.home-venus-dark .div-wrapper {
+  -webkit-backdrop-filter: blur(8px) brightness(100%);
+  backdrop-filter: blur(8px) brightness(100%);
+  background-color: #252440;
+  border: 1px solid;
+  border-color: #65646a0d;
+  border-radius: 9px;
+  box-shadow: inset 0px 4px 12px #ffffff26, 0px 4px 8.9px #7c7c7c33;
+  height: 40px;
+  position: relative;
+  width: 251px;
+}
+
+.home-venus-dark .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 157px;
+}
+
+.home-venus-dark .overlap-group-wrapper {
+  height: 433px;
+  left: 0;
+  position: absolute;
+  top: 464px;
+  width: 296px;
+}
+
+.home-venus-dark .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+}
+
+.home-venus-dark .overlap-3 {
+  height: 190px;
+  left: 20px;
+  position: absolute;
+  top: 18px;
+  width: 251px;
+}
+
+.home-venus-dark .tela-viveiro {
+  height: 190px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 247px;
+}
+
+.home-venus-dark .element-arame-galvanizado {
+  height: 190px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 251px;
+}
+
+.home-venus-dark .fabrica-o-de-gaiolas {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 237px;
+}
+
+.home-venus-dark .overlap-wrapper-2 {
+  height: 433px;
+  left: 948px;
+  position: absolute;
+  top: 0;
+  width: 296px;
+}
+
+.home-venus-dark .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+  width: 143px;
+}
+
+.home-venus-dark .bwg-2 {
+  height: 190px;
+  left: 22px;
+  position: absolute;
+  top: 19px;
+  width: 247px;
+}
+
+.home-venus-dark .armadura-de-concreto {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 224px;
+}
+
+.home-venus-dark .overlap-wrapper-3 {
+  height: 433px;
+  left: 632px;
+  position: absolute;
+  top: 0;
+  width: 296px;
+}
+
+.home-venus-dark .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 210px;
+}
+
+.home-venus-dark .bwg-3 {
+  height: 190px;
+  left: 21px;
+  position: absolute;
+  top: 19px;
+  width: 248px;
+}
+
+.home-venus-dark .overlap-wrapper-4 {
+  height: 433px;
+  left: 316px;
+  position: absolute;
+  top: 0;
+  width: 296px;
+}
+
+.home-venus-dark .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+  width: 137px;
+}
+
+.home-venus-dark .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 232px;
+}
+
+.home-venus-dark .overlap-wrapper-5 {
+  height: 433px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 296px;
+}
+
+.home-venus-dark .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+  width: 151px;
+}
+
+.home-venus-dark .agricultura-ind {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 183px;
+}
+
+.home-venus-dark .bwg-4 {
+  height: 190px;
+  left: 20px;
+  position: absolute;
+  top: 19px;
+  width: 246px;
+}
+
+.home-venus-dark .type-arames {
+  height: 36px;
+  left: 11px;
+  position: absolute;
+  top: 1315px;
+  width: 124px;
+}
+
+.home-venus-dark .overlap-4 {
+  height: 36px;
+  position: relative;
+  width: 122px;
+}
+
+.home-venus-dark .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 122px;
+}
+
+.home-venus-dark .plus {
+  height: 24px;
+  left: 98px;
+  position: absolute;
+  top: 6px;
+  width: 24px;
+}
+
+.home-venus-dark .grid-telas {
+  height: 897px;
+  left: 0;
+  position: absolute;
+  top: 348px;
+  width: 1240px;
+}
+
+.home-venus-dark .tela-fachadeiro {
+  height: 433px;
+  left: 948px;
+  position: absolute;
+  top: 464px;
+  width: 296px;
+}
+
+.home-venus-dark .overlap-5 {
+  border-radius: 18px;
+  height: 433px;
+  position: relative;
+  width: 292px;
+}
+
+.home-venus-dark .card {
+  background-color: #1d1932;
+  border-radius: 18px;
+  height: 433px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 292px;
+}
+
+.home-venus-dark .text-wrapper-10 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+  width: 150px;
+}
+
+.home-venus-dark .component {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/fachadeiroa-1-1@2x.png) !important;
+  left: 26px !important;
+  position: absolute !important;
+  top: 19px !important;
+}
+
+.home-venus-dark .flip-fachadeiro-instance {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-16-1@2x.png) !important;
+}
+
+.home-venus-dark .prote-o-de-queda-de {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 263px;
+}
+
+.home-venus-dark .tela-estuque {
+  height: 433px;
+  left: 632px;
+  position: absolute;
+  top: 464px;
+  width: 296px;
+}
+
+.home-venus-dark .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+  width: 119px;
+}
+
+.home-venus-dark .flip-estuque-instance {
+  left: 24px !important;
+  position: absolute !important;
+  top: 19px !important;
+}
+
+.home-venus-dark .refor-ar-argamassa {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 205px;
+}
+
+.home-venus-dark .flip-mosquiteiro-instance {
+  left: 22px !important;
+  position: absolute !important;
+  top: 19px !important;
+}
+
+.home-venus-dark .text-wrapper-12 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+  white-space: nowrap;
+  width: 119px;
+}
+
+.home-venus-dark .flip-viveiro-instance {
+  left: 23px !important;
+  position: absolute !important;
+  top: 19px !important;
+}
+
+.home-venus-dark .cria-o-de-aves-prote {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 188px;
+}
+
+.home-venus-dark .flip-galinheiro-instance {
+  left: 20px !important;
+  position: absolute !important;
+  top: 18px !important;
+}
+
+.home-venus-dark .galinheiros-viveiros {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 160px;
+}
+
+.home-venus-dark .flip-pinteiro-instance {
+  left: 22px !important;
+  position: absolute !important;
+  top: 18px !important;
+}
+
+.home-venus-dark .flip-ondulada-instance {
+  left: 21px !important;
+  position: absolute !important;
+  top: 19px !important;
+}
+
+.home-venus-dark .flip-alambrado-instance {
+  left: 25px !important;
+  position: absolute !important;
+  top: 26px !important;
+}
+
+.home-venus-dark .text-wrapper-13 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+  width: 153px;
+}
+
+.home-venus-dark .cercamento {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+  width: 130px;
+}
+
+.home-venus-dark .type-telas {
+  height: 36px;
+  left: 11px;
+  position: absolute;
+  top: 299px;
+  width: 94px;
+}
+
+.home-venus-dark .text-wrapper-14 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 92px;
+}
+
+.home-venus-dark .top-section {
+  height: 231px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1240px;
+}
+
+.home-venus-dark .alambrado {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/alambrado01.png);
+  background-size: 100% 100%;
+  height: 231px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 608px;
+}
+
+.home-venus-dark .ondulada {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/ondulada01.png);
+  background-size: 100% 100%;
+  height: 231px;
+  left: 632px;
+  position: absolute;
+  top: 0;
+  width: 608px;
+}
+
+.home-venus-dark .text-wrapper-15 {
+  color: #1d1932;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  left: 497px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 674px;
+}
+
+.home-venus-dark .vector {
+  height: 18px;
+  left: 80px;
+  position: absolute;
+  top: 308px;
+  width: 18px;
+}
+
+.home-venus-dark .header {
+  background-color: transparent;
+  height: 87px;
+  left: 100px;
+  position: absolute;
+  top: 38px;
+  width: 1240px;
+}
+
+.home-venus-dark .whatsapp-logo {
+  height: 21px !important;
+  left: 1219px !important;
+  position: absolute !important;
+  top: 30px !important;
+  width: 21px !important;
+}
+
+.home-venus-dark .instagram-1 {
+  height: 19px !important;
+  left: 1185px !important;
+  position: absolute !important;
+  top: 32px !important;
+  width: 19px !important;
+}
+
+.home-venus-dark .input {
+  height: 51px;
+  left: 211px;
+  position: absolute;
+  top: 13px;
+  width: 446px;
+}
+
+.home-venus-dark .overlap-group-2 {
+  background-color: #1d1932;
+  border-radius: 12px;
+  height: 51px;
+  position: relative;
+  width: 444px;
+}
+
+.home-venus-dark .text-wrapper-16 {
+  color: #68676e;
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 71px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: 248px;
+}
+
+.home-venus-dark .search {
+  height: 28px;
+  left: 22px;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 33px;
+}
+
+.home-venus-dark .logotipo-branco {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 122px;
+}
+
+.home-venus-dark .mode {
+  height: 19px;
+  left: 1152px;
+  object-fit: cover;
+  position: absolute;
+  top: 32px;
+  width: 19px;
+}

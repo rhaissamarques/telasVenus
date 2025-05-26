@@ -1,0 +1,1 @@
+export { Whatsapplogo } from "./Whatsapplogo";

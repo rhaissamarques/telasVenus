@@ -1,0 +1,1 @@
+export { FlipMosquiteiro } from "./FlipMosquiteiro";

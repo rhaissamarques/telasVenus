@@ -1,0 +1,1 @@
+export { FlipGalinheiro } from "./FlipGalinheiro";

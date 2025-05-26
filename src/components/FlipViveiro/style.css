@@ -1,0 +1,20 @@
+.flip-viveiro {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/telaviveiro-3@2x.png);
+  background-size: 100% 100%;
+  height: 190px;
+  width: 247px;
+}
+
+.flip-viveiro .front-viveiro {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-10-1@2x.png);
+  background-size: 100% 100%;
+  height: 190px;
+}
+
+.flip-viveiro:hover {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-10-1@2x.png);
+}
+
+.flip-viveiro:hover .front-viveiro {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/telaviveiro-3@2x.png);
+}

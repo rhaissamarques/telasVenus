@@ -1,0 +1,20 @@
+.flip-fachadeiro {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/fachadeiroa-1@2x.png);
+  background-size: 100% 100%;
+  height: 189px;
+  width: 245px;
+}
+
+.flip-fachadeiro .frame {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-16@2x.png);
+  background-size: 100% 100%;
+  height: 189px;
+}
+
+.flip-fachadeiro:hover {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-17@2x.png);
+}
+
+.flip-fachadeiro:hover .frame {
+  background-image: url(https://c.animaapp.com/VEoDEv2v/img/fachadeiroa-1-1@2x.png);
+}
