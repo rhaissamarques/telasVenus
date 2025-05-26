@@ -4,8 +4,15 @@ import { ButtonDivider4 } from "../../components/ButtonDivider4";
 import { Instagram1 } from "../../icons/Instagram1";
 import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
 import "./style.css";
+import { useNavigate } from "react-router-dom";
 
 export const OnduladaDark = () => {
+
+    const navigate = useNavigate();
+
+  const handleClickHomeDark = () => {
+    navigate('/')
+  }
   return (
     <div className="detail-tela-ondulada" data-model-id="251:309">
       <div className="div">
@@ -29,6 +36,7 @@ export const OnduladaDark = () => {
               className="button-instance"
               divClassName="design-component-instance-node"
               text="Home"
+              onClick={handleClickHomeDark}
             />
             <ButtonDivider4 className="button-divider" color="#BCBCBC" />
             <Button

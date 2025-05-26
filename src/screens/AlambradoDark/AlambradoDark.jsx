@@ -11,7 +11,7 @@ export function AlambradoDark() {
 
   const navigate = useNavigate();
 
-  const handleClick = () => {
+  const handleClickHomeDark = () => {
     navigate('/')
   }
   return (
@@ -37,7 +37,7 @@ export function AlambradoDark() {
               className="button-instance"
               divClassName="design-component-instance-node"
               text="Home"
-              onClick={handleClick}
+              onClick={handleClickHomeDark}
             />
             <ButtonDivider4 className="button-divider" color="#BCBCBC" />
             <Button
