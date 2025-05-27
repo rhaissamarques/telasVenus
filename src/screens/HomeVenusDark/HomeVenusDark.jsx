@@ -8,7 +8,7 @@ import { FlipPinteiro } from "../../components/FlipPinteiro";
 import { FlipViveiro } from "../../components/FlipViveiro";
 import { Instagram1 } from "../../icons/Instagram1";
 import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
-import "./style.css";
+import "./styleHome.css";
 
 import { useNavigate } from "react-router-dom";
 
@@ -442,7 +442,7 @@ export const HomeVenusDark = () => {
         <header className="header">
           <Whatsapplogo1 className="whatsapp-logo" />
           <Instagram1 className="instagram-1" />
-          <div className="input">
+          {/* <div className="input">
             <div className="overlap-group-2">
               <div className="text-wrapper-16">O que está procurando?</div>
 
@@ -452,7 +452,7 @@ export const HomeVenusDark = () => {
                 src="https://c.animaapp.com/VEoDEv2v/img/search@2x.png"
               />
             </div>
-          </div>
+          </div> */}
 
           <img
             className="logotipo-branco"

@@ -3,7 +3,7 @@ import { Button } from "../../components/Button";
 import { ButtonDivider4 } from "../../components/ButtonDivider4";
 import { Instagram1 } from "../../icons/Instagram1";
 import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
-import "./style.css";
+import "./stylePinteiro.css";
 import { useNavigate } from "react-router-dom";
 
 
