@@ -21,6 +21,7 @@ export const HomeVenusDark = () => {
   const PinteiroDark = useNavigate();
   const GalinheiroDark = useNavigate();
   const ViveiroDark = useNavigate();
+  const MosquiteiroDark = useNavigate();
 
   const handleClickAlambradoDark = () => {
     AlambradoDark('/alambrado-dark')
@@ -40,6 +41,10 @@ export const HomeVenusDark = () => {
 
   const handleClickViveiro = () => {
     ViveiroDark('/viveiro-dark')
+  }
+
+  const handleClickMosquiteiro = () => {
+    MosquiteiroDark('/mosquiteiro-dark')
   }
 
   return (
@@ -293,7 +298,9 @@ export const HomeVenusDark = () => {
                     Permitir iluminação
                   </p>
 
-                  <button className="btn">
+                  <button className="btn"
+                    onClick={handleClickMosquiteiro}
+                  >
                     <div className="div-wrapper">
                       <div className="text-wrapper-2">Saiba Mais</div>
                     </div>
