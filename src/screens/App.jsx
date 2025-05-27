@@ -4,6 +4,7 @@ import { AlambradoDark } from "./AlambradoDark/AlambradoDark.jsx";
 import { OnduladaDark } from "./OnduladaDark/OnduladaDark.jsx";
 import { PinteiroDark } from "./PinteiroDark/PinteiroDark.jsx";
 import { GalinheiroDark } from "./GalinheiroDark/GalinheiroDark.jsx";
+import { ViveiroDark } from "./ViveiroDark/ViveiroDark.jsx"
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/galinheiro-dark",
     element: <GalinheiroDark />
+  },
+  {
+    path: "/viveiro-dark",
+    element: <ViveiroDark />
   }
 ])
 
