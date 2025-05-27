@@ -13,8 +13,6 @@ import "./styleHome.css";
 import { useNavigate } from "react-router-dom";
 
 
-
-
 export const HomeVenusDark = () => {
   const AlambradoDark = useNavigate();
   const OnduladaDark = useNavigate();
@@ -22,6 +20,7 @@ export const HomeVenusDark = () => {
   const GalinheiroDark = useNavigate();
   const ViveiroDark = useNavigate();
   const MosquiteiroDark = useNavigate();
+  const EstuqueDark = useNavigate();
 
   const handleClickAlambradoDark = () => {
     AlambradoDark('/alambrado-dark')
@@ -45,6 +44,10 @@ export const HomeVenusDark = () => {
 
   const handleClickMosquiteiro = () => {
     MosquiteiroDark('/mosquiteiro-dark')
+  }
+
+  const handleClickEstuque = () => {
+    EstuqueDark('/estuque-dark')
   }
 
   return (
@@ -272,7 +275,9 @@ export const HomeVenusDark = () => {
                     Aderência de concreto
                   </p>
 
-                  <button className="btn">
+                  <button className="btn"
+                    onClick={handleClickEstuque}
+                  >
                     <div className="div-wrapper">
                       <div className="text-wrapper-2">Saiba Mais</div>
                     </div>
