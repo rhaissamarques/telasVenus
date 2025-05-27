@@ -77,7 +77,7 @@
   position: relative !important;
 }
 
-.detail-tela .tela-alambrado {
+.detail-tela .tela-mosquiteiro {
   height: 797px;
   left: 100px;
   position: absolute;
@@ -85,7 +85,7 @@
   width: 1245px;
 }
 
-.detail-tela .alambrado-quadra {
+.detail-tela .mosquiteiro3 {
   height: 289px;
   left: 951px;
   object-fit: cover;
@@ -103,7 +103,7 @@
   width: 290px;
 }
 
-.detail-tela .mosquiteiro-detalhe {
+.detail-tela .mosquiteiro1 {
   height: 228px;
   left: 950px;
   object-fit: cover;

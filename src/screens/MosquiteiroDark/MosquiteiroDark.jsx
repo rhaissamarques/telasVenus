@@ -53,9 +53,9 @@ export function MosquiteiroDark() {
           </div>
         </header>
 
-        <div className="tela-alambrado">
+        <div className="tela-mosquiteiro">
           <img
-            className="alambrado-quadra"
+            className="mosquiteiro3"
             alt="Alambrado quadra"
             src="src\components\images\Mosquiteiro3.svg"
           />
@@ -67,7 +67,7 @@ export function MosquiteiroDark() {
           />
 
           <img
-            className="mosquiteiro-detalhe"
+            className="mosquiteiro1"
             alt="Alambrado detalhe"
             src="src\components\images\Mosquiteiro1.svg"
           />
