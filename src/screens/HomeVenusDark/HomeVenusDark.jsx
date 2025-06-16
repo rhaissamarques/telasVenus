@@ -1,4 +1,7 @@
-import { FlipAlambrado } from "../../components/FlipAlambrado";
+import { CardAlambrado } from "../../components/CardAlambrado/cardAlambrado";
+import { CardOndulada } from "../../components/CardOndulada/cardOndulada";
+import { CardPinteiro } from "../../components/CardPinteiro/cardPinteiro";
+// import { FlipAlambrado } from "../../components/FlipAlambrado";
 import { FlipEstuque } from "../../components/FlipEstuque";
 import { FlipFachadeiro } from "../../components/FlipFachadeiro";
 import { FlipGalinheiro } from "../../components/FlipGalinheiro";
@@ -14,26 +17,14 @@ import { useNavigate } from "react-router-dom";
 
 
 export const HomeVenusDark = () => {
-  const AlambradoDark = useNavigate();
-  const OnduladaDark = useNavigate();
-  const PinteiroDark = useNavigate();
   const GalinheiroDark = useNavigate();
   const ViveiroDark = useNavigate();
   const MosquiteiroDark = useNavigate();
   const EstuqueDark = useNavigate();
   const FachadeiroDark = useNavigate();
 
-  const handleClickAlambradoDark = () => {
-    AlambradoDark('/alambrado-dark')
-  }
 
-  const handleClickOnduladaDark = () => {
-    OnduladaDark('/ondulada-dark')
-  }
 
-  const handleClickPinteiroDark = () => {
-    PinteiroDark('/pinteiro-dark')
-  }
 
   const handleClickGalinheiroDark = () => {
     GalinheiroDark('/galinheiro-dark')
@@ -373,83 +364,9 @@ export const HomeVenusDark = () => {
                 </div>
               </div>
 
-              <div className="overlap-wrapper-3">
-                <div className="overlap-5">
-                  <div className="card" />
-
-                  <div className="text-wrapper-12">Tela Pinteiro</div>
-
-                  <FlipPinteiro
-                    className="flip-pinteiro-instance"
-                    property1="component-2"
-                  />
-                  <p className="text-wrapper-5">
-                    Galinheiros
-                    <br />
-                    Cercamento de hortas
-                    <br />
-                    Cercamento de granjas
-                  </p>
-
-                  <button className="btn"
-                    onClick={handleClickPinteiroDark}
-                  >
-                    <div className="div-wrapper">
-                      <div className="text-wrapper-2">Saiba Mais</div>
-                    </div>
-                  </button>
-                </div>
-              </div>
-
-              <div className="overlap-wrapper-4">
-                <div className="overlap-5">
-                  <div className="card" />
-
-                  <FlipOndulada className="flip-ondulada-instance" />
-                  <div className="text-wrapper-6">Tela Ondulada</div>
-
-                  <div className="text-wrapper-7">
-                    Proteção de equipamentos
-                    <br />
-                    Fachadas
-                    <br />
-                    Fechamentos
-                  </div>
-
-                  <button className="btn"
-                    onClick={handleClickOnduladaDark}
-                  >
-                    <div className="div-wrapper">
-                      <div className="text-wrapper-2">Saiba Mais</div>
-                    </div>
-                  </button>
-                </div>
-              </div>
-
-              <div className="overlap-wrapper-5">
-                <div className="overlap-5">
-                  <div className="card" />
-
-                  <FlipAlambrado className="flip-alambrado-instance" />
-                  <button className="btn" 
-                    onClick={handleClickAlambradoDark}
-                  >
-                    <div className="div-wrapper">
-                      <div className="text-wrapper-2">Saiba Mais</div>
-                    </div>
-                  </button>
-
-                  <div className="text-wrapper-13">Tela Alambrado</div>
-
-                  <div className="cercamento">
-                    Cercamento
-                    <br />
-                    Fechamentos
-                    <br />
-                    Proteção
-                  </div>
-                </div>
-              </div>
+              <CardAlambrado />
+              <CardOndulada />
+              <CardPinteiro />
             </div>
 
             <div className="type-telas">
@@ -458,12 +375,12 @@ export const HomeVenusDark = () => {
 
             <div className="top-section">
               <div className="alambrado" />
-
+              <img src="src\components\images\superiorImageLeft.svg" alt="tela alambrado" />
+              
               <div className="ondulada" />
+              <img src="src\components\images\superiorImageRight.svg" alt="tela ondulada" />
             </div>
           </div>
-
-          <div className="text-wrapper-15">Saiba Mais</div>
 
           <img
             className="vector"
@@ -490,13 +407,13 @@ export const HomeVenusDark = () => {
           <img
             className="logotipo-branco"
             alt="Logotipo branco"
-            src="https://c.animaapp.com/VEoDEv2v/img/logotipo-branco-1.svg"
+            src="https://c.animaapp.com/qn44tgT7/img/logotipo-branco-1.svg"
           />
 
           <img
             className="mode"
             alt="Mode"
-            src="https://c.animaapp.com/VEoDEv2v/img/mode@2x.png"
+            src="https://c.animaapp.com/qn44tgT7/img/mode@2x.png"
           />
         </header>
       </div>

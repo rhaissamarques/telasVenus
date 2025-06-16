@@ -597,6 +597,8 @@
 }
 
 .home-venus-dark .top-section {
+  display: flex;
+  justify-content: space-between;
   height: 231px;
   left: 0;
   position: absolute;
@@ -605,7 +607,6 @@
 }
 
 .home-venus-dark .alambrado {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/alambrado01.png);
   background-size: 100% 100%;
   height: 231px;
   left: 0;
@@ -615,7 +616,6 @@
 }
 
 .home-venus-dark .ondulada {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/ondulada01.png);
   background-size: 100% 100%;
   height: 231px;
   left: 632px;
@@ -718,6 +718,7 @@
 }
 
 .home-venus-dark .mode {
+  
   height: 19px;
   left: 1152px;
   object-fit: cover;
