@@ -1,12 +1,3 @@
-// export const FlipOndulada = ({ className }) => {
-//   return (
-//     <div className={`flip-ondulada ${className}`}>
-//       <div className="back-side-ondulada" />
-//     </div>
-//   );
-// };
-
-
 import { useReducer } from "react";
 import "./style.css";
 
