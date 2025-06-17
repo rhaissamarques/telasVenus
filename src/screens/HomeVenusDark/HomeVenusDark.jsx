@@ -1,11 +1,11 @@
 import { CardAlambrado } from "../../components/CardAlambrado/cardAlambrado";
 import { CardGalinheiro } from "../../components/CardGalinheiro/cardGalinheiro";
+import { CardMosquiteiro } from "../../components/CardMosquiteiro/cardMosquiteiro";
 import { CardOndulada } from "../../components/CardOndulada/cardOndulada";
 import { CardPinteiro } from "../../components/CardPinteiro/cardPinteiro";
 import { CardViveiro } from "../../components/CardViveiro/cardViveiro";
 import { FlipEstuque } from "../../components/FlipEstuque";
 import { FlipFachadeiro } from "../../components/FlipFachadeiro";
-import { FlipMosquiteiro } from "../../components/FlipMosquiteiro";
 import { Instagram1 } from "../../icons/Instagram1";
 import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
 import "./styleHome.css";
@@ -13,14 +13,10 @@ import "./styleHome.css";
 import { useNavigate } from "react-router-dom";
 
 export const HomeVenusDark = () => {
-  const MosquiteiroDark = useNavigate();
   const EstuqueDark = useNavigate();
   const FachadeiroDark = useNavigate();
 
 
-  const handleClickMosquiteiro = () => {
-    MosquiteiroDark('/mosquiteiro-dark')
-  }
 
   const handleClickEstuque = () => {
     EstuqueDark('/estuque-dark')
@@ -267,33 +263,6 @@ export const HomeVenusDark = () => {
                 </div>
               </div>
 
-              <div className="overlap-wrapper">
-                <div className="overlap-5">
-                  <div className="card" />
-
-                  <div className="text-wrapper">Tela Mosquiteiro</div>
-
-                  <FlipMosquiteiro
-                    className="flip-mosquiteiro-instance"
-                    property1="component-1"
-                  />
-                  <p className="p">
-                    Proteção contra mosquitos
-                    <br />
-                    Permitir ventilação
-                    <br />
-                    Permitir iluminação
-                  </p>
-
-                  <button className="btn"
-                    onClick={handleClickMosquiteiro}
-                  >
-                    <div className="div-wrapper">
-                      <div className="text-wrapper-2">Saiba Mais</div>
-                    </div>
-                  </button>
-                </div>
-              </div>
 
 
               <CardAlambrado />
@@ -301,6 +270,7 @@ export const HomeVenusDark = () => {
               <CardPinteiro />
               <CardGalinheiro />
               <CardViveiro />
+              <CardMosquiteiro />
 
             </div>
 
