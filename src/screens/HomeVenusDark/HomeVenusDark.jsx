@@ -1,10 +1,10 @@
 import { CardAlambrado } from "../../components/CardAlambrado/cardAlambrado";
+import { CardEstuque } from "../../components/CardEstuque/cardEstuque";
 import { CardGalinheiro } from "../../components/CardGalinheiro/cardGalinheiro";
 import { CardMosquiteiro } from "../../components/CardMosquiteiro/cardMosquiteiro";
 import { CardOndulada } from "../../components/CardOndulada/cardOndulada";
 import { CardPinteiro } from "../../components/CardPinteiro/cardPinteiro";
 import { CardViveiro } from "../../components/CardViveiro/cardViveiro";
-import { FlipEstuque } from "../../components/FlipEstuque";
 import { FlipFachadeiro } from "../../components/FlipFachadeiro";
 import { Instagram1 } from "../../icons/Instagram1";
 import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
@@ -13,14 +13,7 @@ import "./styleHome.css";
 import { useNavigate } from "react-router-dom";
 
 export const HomeVenusDark = () => {
-  const EstuqueDark = useNavigate();
   const FachadeiroDark = useNavigate();
-
-
-
-  const handleClickEstuque = () => {
-    EstuqueDark('/estuque-dark')
-  }
 
   const handleClickFachadeiro = () => {
     FachadeiroDark('/fachadeiro-dark')
@@ -238,39 +231,13 @@ export const HomeVenusDark = () => {
                 </div>
               </div>
 
-              <div className="tela-estuque">
-                <div className="overlap-5">
-                  <div className="card" />
-
-                  <div className="text-wrapper-11">Tela Estuque</div>
-
-                  <FlipEstuque className="flip-estuque-instance" />
-                  <p className="refor-ar-argamassa">
-                    Reforçar argamassa
-                    <br />
-                    Sustentação lã de vidro
-                    <br />
-                    Aderência de concreto
-                  </p>
-
-                  <button className="btn"
-                    onClick={handleClickEstuque}
-                  >
-                    <div className="div-wrapper">
-                      <div className="text-wrapper-2">Saiba Mais</div>
-                    </div>
-                  </button>
-                </div>
-              </div>
-
-
-
               <CardAlambrado />
               <CardOndulada />
               <CardPinteiro />
               <CardGalinheiro />
               <CardViveiro />
               <CardMosquiteiro />
+              <CardEstuque />
 
             </div>
 
