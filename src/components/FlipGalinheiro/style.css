@@ -1,20 +1,27 @@
 .flip-galinheiro {
-  height: 189px;
-  width: 250px;
+  height: 190px;
+  width: 247px;
 }
 
-.flip-galinheiro .front-tela {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/telagalinheiro-1@2x.png);
+.flip-galinheiro .back-side-galinheiro {
+  background-image: url(../images/flipGalinheiro2.svg);
   background-size: 100% 100%;
-  height: 189px;
-  position: relative;
-  width: 249px;
+  height: 190px;
 }
 
-.flip-galinheiro .image-2 {
-  height: 189px;
+.flip-galinheiro .image-3 {
+  height: 190px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 249px;
+  width: 247px;
+}
+
+.flip-galinheiro.property-1-0-component-1 {
+  background-image: url(../images/flipGalinheiro2.svg);
+  background-size: 100% 100%;
+}
+
+.flip-galinheiro.property-1-0-component-2 .back-side-galinheiro {
+  position: relative;
 }
