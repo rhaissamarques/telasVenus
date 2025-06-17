@@ -1,20 +1,27 @@
 .flip-estuque {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/telaestuque-2@2x.png);
+  height: 190px;
+  width: 247px;
+}
+
+.flip-estuque .back-side-estuque {
+  background-image: url(../images/flipEstuque2.svg);
   background-size: 100% 100%;
-  height: 189px;
-  width: 245px;
+  height: 190px;
 }
 
-.flip-estuque .div {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-14-1@2x.png);
+.flip-estuque .image-3 {
+  height: 190px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 247px;
+}
+
+.flip-estuque.property-1-0-component-1 {
+  background-image: url(../images/flipEstuque2.svg);
   background-size: 100% 100%;
-  height: 189px;
 }
 
-.flip-estuque:hover {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-14-1@2x.png);
-}
-
-.flip-estuque:hover .div {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/telaestuque-2@2x.png);
+.flip-estuque.property-1-0-component-2 .back-side-estuque {
+  position: relative;
 }
