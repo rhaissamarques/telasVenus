@@ -224,7 +224,7 @@ export const HomeVenusDark = () => {
           <img
             className="vector"
             alt="Vector"
-            src="https://c.animaapp.com/VEoDEv2v/img/vector.svg"
+            src="src\components\images\plusSign.svg"
           />
         </div>
 
