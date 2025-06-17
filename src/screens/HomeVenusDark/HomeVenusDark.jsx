@@ -1,23 +1,16 @@
 import { CardAlambrado } from "../../components/CardAlambrado/cardAlambrado";
 import { CardEstuque } from "../../components/CardEstuque/cardEstuque";
+import { CardFachadeiro } from "../../components/CardFachadeiro/cardFachadeiro";
 import { CardGalinheiro } from "../../components/CardGalinheiro/cardGalinheiro";
 import { CardMosquiteiro } from "../../components/CardMosquiteiro/cardMosquiteiro";
 import { CardOndulada } from "../../components/CardOndulada/cardOndulada";
 import { CardPinteiro } from "../../components/CardPinteiro/cardPinteiro";
 import { CardViveiro } from "../../components/CardViveiro/cardViveiro";
-import { FlipFachadeiro } from "../../components/FlipFachadeiro";
 import { Instagram1 } from "../../icons/Instagram1";
 import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
 import "./styleHome.css";
 
-import { useNavigate } from "react-router-dom";
-
 export const HomeVenusDark = () => {
-  const FachadeiroDark = useNavigate();
-
-  const handleClickFachadeiro = () => {
-    FachadeiroDark('/fachadeiro-dark')
-  }
 
   return (
     <div className="home-venus-dark" data-model-id="101:6082">
@@ -203,33 +196,6 @@ export const HomeVenusDark = () => {
             </div>
 
             <div className="grid-telas">
-              <div className="tela-fachadeiro">
-                <div className="overlap-5">
-                  <div className="card" />
-
-                  <div className="text-wrapper-10">Tela Fachadeiro</div>
-
-                  <FlipFachadeiro
-                    className="component"
-                    frameClassName="flip-fachadeiro-instance"
-                  />
-                  <p className="prote-o-de-queda-de">
-                    Proteção de queda de resíduos
-                    <br />
-                    Proteção de trabalhadores
-                    <br />
-                    Proteção de pedestres
-                  </p>
-
-                  <button className="btn"
-                    onClick={handleClickFachadeiro}
-                  >
-                    <div className="div-wrapper">
-                      <div className="text-wrapper-2">Saiba Mais</div>
-                    </div>
-                  </button>
-                </div>
-              </div>
 
               <CardAlambrado />
               <CardOndulada />
@@ -238,6 +204,7 @@ export const HomeVenusDark = () => {
               <CardViveiro />
               <CardMosquiteiro />
               <CardEstuque />
+              <CardFachadeiro />
 
             </div>
 
