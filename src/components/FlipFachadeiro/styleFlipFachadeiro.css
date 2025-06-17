@@ -1,20 +1,27 @@
 .flip-fachadeiro {
-  background-image: url(../images/flipAlambrado1.svg);
+  height: 190px;
+  width: 247px;
+}
+
+.flip-fachadeiro .back-side-fachadeiro {
+  background-image: url(../images/flipFachadeiro2.svg);
   background-size: 100% 100%;
-  height: 189px;
-  width: 245px;
+  height: 190px;
 }
 
-.flip-fachadeiro .frame {
-  background-image: url(../images/flipAlambrado1.svg);
+.flip-fachadeiro .image-3 {
+  height: 190px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 247px;
+}
+
+.flip-fachadeiro.property-1-0-component-1 {
+  background-image: url(../images/flipFachadeiro2.svg);
   background-size: 100% 100%;
-  height: 189px;
 }
 
-.flip-fachadeiro:hover {
-  background-image: url(../images/flipAlambrado2.svg);
-}
-
-.flip-fachadeiro:hover .frame {
-  background-image: url(../images/flipAlambrado2.svg);
+.flip-fachadeiro.property-1-0-component-2 .back-side-fachadeiro {
+  position: relative;
 }
