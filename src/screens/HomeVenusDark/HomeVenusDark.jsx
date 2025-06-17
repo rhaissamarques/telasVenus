@@ -1,13 +1,11 @@
 import { CardAlambrado } from "../../components/CardAlambrado/cardAlambrado";
+import { CardGalinheiro } from "../../components/CardGalinheiro/cardGalinheiro";
 import { CardOndulada } from "../../components/CardOndulada/cardOndulada";
 import { CardPinteiro } from "../../components/CardPinteiro/cardPinteiro";
-// import { FlipAlambrado } from "../../components/FlipAlambrado";
 import { FlipEstuque } from "../../components/FlipEstuque";
 import { FlipFachadeiro } from "../../components/FlipFachadeiro";
 import { FlipGalinheiro } from "../../components/FlipGalinheiro";
 import { FlipMosquiteiro } from "../../components/FlipMosquiteiro";
-import { FlipOndulada } from "../../components/FlipOndulada";
-import { FlipPinteiro } from "../../components/FlipPinteiro";
 import { FlipViveiro } from "../../components/FlipViveiro";
 import { Instagram1 } from "../../icons/Instagram1";
 import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
@@ -15,20 +13,11 @@ import "./styleHome.css";
 
 import { useNavigate } from "react-router-dom";
 
-
 export const HomeVenusDark = () => {
-  const GalinheiroDark = useNavigate();
   const ViveiroDark = useNavigate();
   const MosquiteiroDark = useNavigate();
   const EstuqueDark = useNavigate();
   const FachadeiroDark = useNavigate();
-
-
-
-
-  const handleClickGalinheiroDark = () => {
-    GalinheiroDark('/galinheiro-dark')
-  }
 
   const handleClickViveiro = () => {
     ViveiroDark('/viveiro-dark')
@@ -336,37 +325,11 @@ export const HomeVenusDark = () => {
                 </div>
               </div>
 
-              <div className="overlap-wrapper-2">
-                <div className="overlap-5">
-                  <div className="card" />
-
-                  <div className="text-wrapper-4">Tela Galinheiro</div>
-
-                  <FlipGalinheiro
-                    className="flip-galinheiro-instance"
-                    property1="component-1"
-                  />
-                  <div className="galinheiros-viveiros">
-                    Galinheiros
-                    <br />
-                    Viveiros
-                    <br />
-                    Proteção animais
-                  </div>
-
-                  <button className="btn"
-                    onClick={handleClickGalinheiroDark}
-                  >
-                    <div className="div-wrapper">
-                      <div className="text-wrapper-2">Saiba Mais</div>
-                    </div>
-                  </button>
-                </div>
-              </div>
-
               <CardAlambrado />
               <CardOndulada />
               <CardPinteiro />
+              <CardGalinheiro />
+
             </div>
 
             <div className="type-telas">
