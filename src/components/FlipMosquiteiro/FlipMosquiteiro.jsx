@@ -3,39 +3,25 @@ import "./style.css";
 
 export const FlipMosquiteiro = ({ property1, className }) => {
   const [state, dispatch] = useReducer(reducer, {
-    property1: property1 || "component-1",
+    property1: property1 || "component-2",
   });
 
   return (
     <div
-      className={`flip-mosquiteiro ${state.property1} ${className}`}
-      onMouseLeave={() => {
-        dispatch("mouse_leave");
-      }}
+      className={`flip-mosquiteiro property-1-0-${state.property1} ${className}`}
       onMouseEnter={() => {
         dispatch("mouse_enter");
       }}
+      onMouseLeave={() => {
+        dispatch("mouse_leave");
+      }}
     >
-      <div className="overlap-group">
+      <div className="back-side-mosquiteiro">
         {state.property1 === "component-2" && (
-          <>
-            <div className="back-mosquiteiro">
-              <img
-                className="image"
-                alt="Image"
-                src="https://c.animaapp.com/VEoDEv2v/img/image-12@2x.png"
-              />
-            </div>
-
-            <div className="back-mosquiteiro-2" />
-          </>
-        )}
-
-        {state.property1 === "component-1" && (
           <img
-            className="img"
+            className="image-3"
             alt="Image"
-            src="https://c.animaapp.com/VEoDEv2v/img/image-13-1@2x.png"
+            src="src\components\images\flipMosquiteiro1.svg"
           />
         )}
       </div>
@@ -45,13 +31,13 @@ export const FlipMosquiteiro = ({ property1, className }) => {
 
 function reducer(state, action) {
   switch (action) {
-    case "mouse_leave":
+    case "mouse_enter":
       return {
         ...state,
         property1: "component-1",
       };
 
-    case "mouse_enter":
+    case "mouse_leave":
       return {
         ...state,
         property1: "component-2",
