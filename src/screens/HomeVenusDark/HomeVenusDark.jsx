@@ -2,11 +2,10 @@ import { CardAlambrado } from "../../components/CardAlambrado/cardAlambrado";
 import { CardGalinheiro } from "../../components/CardGalinheiro/cardGalinheiro";
 import { CardOndulada } from "../../components/CardOndulada/cardOndulada";
 import { CardPinteiro } from "../../components/CardPinteiro/cardPinteiro";
+import { CardViveiro } from "../../components/CardViveiro/cardViveiro";
 import { FlipEstuque } from "../../components/FlipEstuque";
 import { FlipFachadeiro } from "../../components/FlipFachadeiro";
-import { FlipGalinheiro } from "../../components/FlipGalinheiro";
 import { FlipMosquiteiro } from "../../components/FlipMosquiteiro";
-import { FlipViveiro } from "../../components/FlipViveiro";
 import { Instagram1 } from "../../icons/Instagram1";
 import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
 import "./styleHome.css";
@@ -14,14 +13,10 @@ import "./styleHome.css";
 import { useNavigate } from "react-router-dom";
 
 export const HomeVenusDark = () => {
-  const ViveiroDark = useNavigate();
   const MosquiteiroDark = useNavigate();
   const EstuqueDark = useNavigate();
   const FachadeiroDark = useNavigate();
 
-  const handleClickViveiro = () => {
-    ViveiroDark('/viveiro-dark')
-  }
 
   const handleClickMosquiteiro = () => {
     MosquiteiroDark('/mosquiteiro-dark')
@@ -300,35 +295,12 @@ export const HomeVenusDark = () => {
                 </div>
               </div>
 
-              <div className="overlap-group-wrapper">
-                <div className="overlap-5">
-                  <div className="card" />
-
-                  <div className="text-wrapper-12">Tela Viveiro</div>
-
-                  <FlipViveiro className="flip-viveiro-instance" />
-                  <p className="cria-o-de-aves-prote">
-                    Criação de aves
-                    <br />
-                    Proteção predadores
-                    <br />
-                    Cercar jardins
-                  </p>
-
-                  <button className="btn"
-                    onClick={handleClickViveiro}
-                  >
-                    <div className="div-wrapper">
-                      <div className="text-wrapper-2">Saiba Mais</div>
-                    </div>
-                  </button>
-                </div>
-              </div>
 
               <CardAlambrado />
               <CardOndulada />
               <CardPinteiro />
               <CardGalinheiro />
+              <CardViveiro />
 
             </div>
 
