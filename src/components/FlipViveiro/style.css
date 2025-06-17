@@ -1,20 +1,27 @@
 .flip-viveiro {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/telaviveiro-3@2x.png);
-  background-size: 100% 100%;
   height: 190px;
   width: 247px;
 }
 
-.flip-viveiro .front-viveiro {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-10-1@2x.png);
+.flip-viveiro .back-side-viveiro {
+  background-image: url(../images/flipViveiro2.svg);
   background-size: 100% 100%;
   height: 190px;
 }
 
-.flip-viveiro:hover {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-10-1@2x.png);
+.flip-viveiro .image-3 {
+  height: 190px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 247px;
 }
 
-.flip-viveiro:hover .front-viveiro {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/telaviveiro-3@2x.png);
+.flip-viveiro.property-1-0-component-1 {
+  background-image: url(../images/flipViveiro2.svg);
+  background-size: 100% 100%;
+}
+
+.flip-viveiro.property-1-0-component-2 .back-side-viveiro {
+  position: relative;
 }
