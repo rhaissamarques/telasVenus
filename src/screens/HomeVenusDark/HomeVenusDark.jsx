@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { CardAlambrado } from "../../components/CardAlambrado/cardAlambrado";
 import { CardEstuque } from "../../components/CardEstuque/cardEstuque";
 import { CardFachadeiro } from "../../components/CardFachadeiro/cardFachadeiro";
@@ -9,8 +10,14 @@ import { CardViveiro } from "../../components/CardViveiro/cardViveiro";
 import { Instagram1 } from "../../icons/Instagram1";
 import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
 import "./styleHome.css";
+import { Button } from "../../components/Button";
 
 export const HomeVenusDark = () => {
+  const TelasDark = useNavigate();
+
+  const handleClickTelas = () => {
+    TelasDark("/telas-dark");
+  };
 
   return (
     <div className="home-venus-dark" data-model-id="101:6082">
@@ -196,7 +203,6 @@ export const HomeVenusDark = () => {
             </div>
 
             <div className="grid-telas">
-
               <CardAlambrado />
               <CardOndulada />
               <CardPinteiro />
@@ -205,19 +211,33 @@ export const HomeVenusDark = () => {
               <CardMosquiteiro />
               <CardEstuque />
               <CardFachadeiro />
-
             </div>
 
-            <div className="type-telas">
+            {/* <div className="type-telas">
               <div className="text-wrapper-14">Telas</div>
+            </div> */}
+
+            <div className="type-telas">
+              <Button
+                className="text-wrapper-14"
+                divClassName="design-component-instance-node"
+                text="Telas"
+                onClick={handleClickTelas}
+              />
             </div>
 
             <div className="top-section">
               <div className="alambrado" />
-              <img src="src\components\images\superiorImageLeft.svg" alt="tela alambrado" />
-              
+              <img
+                src="src\components\images\superiorImageLeft.svg"
+                alt="tela alambrado"
+              />
+
               <div className="ondulada" />
-              <img src="src\components\images\superiorImageRight.svg" alt="tela ondulada" />
+              <img
+                src="src\components\images\superiorImageRight.svg"
+                alt="tela ondulada"
+              />
             </div>
           </div>
 
@@ -225,23 +245,13 @@ export const HomeVenusDark = () => {
             className="vector"
             alt="Vector"
             src="src\components\images\plusSign.svg"
+            onClick={handleClickTelas}
           />
         </div>
 
         <header className="header">
           <Whatsapplogo1 className="whatsapp-logo" />
           <Instagram1 className="instagram-1" />
-          {/* <div className="input">
-            <div className="overlap-group-2">
-              <div className="text-wrapper-16">O que está procurando?</div>
-
-              <img
-                className="search"
-                alt="Search"
-                src="https://c.animaapp.com/VEoDEv2v/img/search@2x.png"
-              />
-            </div>
-          </div> */}
 
           <img
             className="logotipo-branco"

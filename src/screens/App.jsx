@@ -8,12 +8,16 @@ import { ViveiroDark } from "./ViveiroDark/ViveiroDark.jsx"
 import { MosquiteiroDark } from "./MosquiteiroDark/MosquiteiroDark.jsx";
 import { EstuqueDark } from "./EstuqueDark/EstuqueDark.jsx";
 import { FachadeiroDark } from "./FachadeiroDark/FachadeiroDark.jsx";
-
+import { TelasDark } from "./TelasDark/TelasDark.jsx"
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomeVenusDark />
+  },
+  {
+    path: "/telas-dark",
+    element: <TelasDark />
   },
   {
     path: "/alambrado-dark",

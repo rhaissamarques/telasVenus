@@ -1,4 +1,4 @@
-.home-venus-dark {
+.telas-dark {
   background-color: #252440;
   display: flex;
   flex-direction: row;
@@ -6,14 +6,36 @@
   width: 100%;
 }
 
-.home-venus-dark .div-2 {
+.telas-dark .breadcrumbs {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+  left: 176px;
+  position: absolute;
+  top: 30px;
+}
+
+.telas-dark .button-instance {
+  flex: 0 0 auto !important;
+}
+
+.telas-dark .design-component-instance-node {
+  color: #bcbcbc66 !important;
+}
+
+.telas-dark .button-divider {
+  flex: 0 0 auto !important;
+  position: relative !important;
+}
+
+.telas-dark .div-2 {
   background-color: #252440;
   height: 2609px;
   position: relative;
   width: 1440px;
 }
 
-.home-venus-dark .overlap {
+.telas-dark .overlap {
   height: 2261px;
   left: 100px;
   position: absolute;
@@ -21,7 +43,7 @@
   width: 1240px;
 }
 
-.home-venus-dark .content {
+.telas-dark .content {
   height: 2261px;
   left: 0;
   position: absolute;
@@ -29,15 +51,7 @@
   width: 1240px;
 }
 
-.home-venus-dark .grid-arames {
-  height: 897px;
-  left: 0;
-  position: absolute;
-  top: 1364px;
-  width: 1240px;
-}
-
-.home-venus-dark .overlap-wrapper {
+.telas-dark .overlap-wrapper {
   height: 433px;
   left: 316px;
   position: absolute;
@@ -45,7 +59,7 @@
   width: 296px;
 }
 
-.home-venus-dark .overlap-2 {
+.telas-dark .overlap-2 {
   background-color: #1d1932;
   border-radius: 18px;
   height: 433px;
@@ -53,7 +67,7 @@
   width: 292px;
 }
 
-.home-venus-dark .text-wrapper {
+/* .telas-dark .text-wrapper {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -64,9 +78,9 @@
   position: absolute;
   top: 237px;
   width: 157px;
-}
+} */
 
-.home-venus-dark .bwg {
+.telas-dark .bwg {
   height: 191px;
   left: 22px;
   position: absolute;
@@ -74,7 +88,7 @@
   width: 247px;
 }
 
-.home-venus-dark .p {
+.telas-dark .p {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 15px;
@@ -87,7 +101,7 @@
   width: 235px;
 }
 
-.home-venus-dark .btn {
+.telas-dark .btn {
   all: unset;
   box-sizing: border-box;
   height: 40px;
@@ -97,7 +111,7 @@
   width: 253px;
 }
 
-.home-venus-dark .div-wrapper {
+.telas-dark .div-wrapper {
   -webkit-backdrop-filter: blur(8px) brightness(100%);
   backdrop-filter: blur(8px) brightness(100%);
   background-color: #252440;
@@ -110,7 +124,7 @@
   width: 251px;
 }
 
-.home-venus-dark .text-wrapper-2 {
+.telas-dark .text-wrapper-2 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 14px;
@@ -124,7 +138,7 @@
   width: 157px;
 }
 
-.home-venus-dark .overlap-group-wrapper {
+.telas-dark .overlap-group-wrapper {
   height: 433px;
   left: 0;
   position: absolute;
@@ -132,7 +146,7 @@
   width: 296px;
 }
 
-.home-venus-dark .text-wrapper-3 {
+.telas-dark .text-wrapper-3 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -144,7 +158,7 @@
   top: 237px;
 }
 
-.home-venus-dark .overlap-3 {
+.telas-dark .overlap-3 {
   height: 190px;
   left: 20px;
   position: absolute;
@@ -152,7 +166,7 @@
   width: 251px;
 }
 
-.home-venus-dark .tela-viveiro {
+.telas-dark .tela-viveiro {
   height: 190px;
   left: 2px;
   position: absolute;
@@ -160,28 +174,7 @@
   width: 247px;
 }
 
-.home-venus-dark .element-arame-galvanizado {
-  height: 190px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 251px;
-}
-
-.home-venus-dark .fabrica-o-de-gaiolas {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 277px;
-  width: 237px;
-}
-
-.home-venus-dark .overlap-wrapper-2 {
+.telas-dark .overlap-wrapper-2 {
   height: 433px;
   left: 948px;
   position: absolute;
@@ -189,7 +182,7 @@
   width: 296px;
 }
 
-.home-venus-dark .text-wrapper-4 {
+.telas-dark .text-wrapper-4 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -202,28 +195,7 @@
   width: 143px;
 }
 
-.home-venus-dark .bwg-2 {
-  height: 190px;
-  left: 22px;
-  position: absolute;
-  top: 19px;
-  width: 247px;
-}
-
-.home-venus-dark .armadura-de-concreto {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 277px;
-  width: 224px;
-}
-
-.home-venus-dark .overlap-wrapper-3 {
+.telas-dark .overlap-wrapper-3 {
   height: 433px;
   left: 632px;
   position: absolute;
@@ -231,7 +203,7 @@
   width: 296px;
 }
 
-.home-venus-dark .text-wrapper-5 {
+.telas-dark .text-wrapper-5 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 15px;
@@ -244,15 +216,7 @@
   width: 210px;
 }
 
-.home-venus-dark .bwg-3 {
-  height: 190px;
-  left: 21px;
-  position: absolute;
-  top: 19px;
-  width: 248px;
-}
-
-.home-venus-dark .overlap-wrapper-4 {
+.telas-dark .overlap-wrapper-4 {
   height: 433px;
   left: 316px;
   position: absolute;
@@ -260,7 +224,7 @@
   width: 296px;
 }
 
-.home-venus-dark .text-wrapper-6 {
+.telas-dark .text-wrapper-6 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -273,7 +237,7 @@
   width: 137px;
 }
 
-.home-venus-dark .text-wrapper-7 {
+.telas-dark .text-wrapper-7 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 15px;
@@ -286,7 +250,7 @@
   width: 232px;
 }
 
-.home-venus-dark .overlap-wrapper-5 {
+.telas-dark .overlap-wrapper-5 {
   height: 433px;
   left: 0;
   position: absolute;
@@ -294,7 +258,7 @@
   width: 296px;
 }
 
-.home-venus-dark .text-wrapper-8 {
+.telas-dark .text-wrapper-8 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -307,42 +271,13 @@
   width: 151px;
 }
 
-.home-venus-dark .agricultura-ind {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 23px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 277px;
-  width: 183px;
-}
-
-.home-venus-dark .bwg-4 {
-  height: 190px;
-  left: 20px;
-  position: absolute;
-  top: 19px;
-  width: 246px;
-}
-
-.home-venus-dark .type-arames {
-  height: 36px;
-  left: 11px;
-  position: absolute;
-  top: 1315px;
-  width: 124px;
-}
-
-.home-venus-dark .overlap-4 {
+.telas-dark .overlap-4 {
   height: 36px;
   position: relative;
   width: 122px;
 }
 
-.home-venus-dark .text-wrapper-9 {
+.telas-dark .text-wrapper-9 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 24px;
@@ -355,23 +290,15 @@
   width: 122px;
 }
 
-.home-venus-dark .plus {
-  height: 24px;
-  left: 98px;
-  position: absolute;
-  top: 6px;
-  width: 24px;
-}
-
-.home-venus-dark .grid-telas {
+.telas-dark .grid-telas {
   height: 897px;
   left: 0;
   position: absolute;
-  top: 348px;
+  top: 48px;
   width: 1240px;
 }
 
-.home-venus-dark .tela-fachadeiro {
+.telas-dark .tela-fachadeiro {
   height: 433px;
   left: 948px;
   position: absolute;
@@ -379,14 +306,14 @@
   width: 296px;
 }
 
-.home-venus-dark .overlap-5 {
+.telas-dark .overlap-5 {
   border-radius: 18px;
   height: 433px;
   position: relative;
   width: 292px;
 }
 
-.home-venus-dark .card {
+.telas-dark .card {
   background-color: #1d1932;
   border-radius: 18px;
   height: 433px;
@@ -396,7 +323,7 @@
   width: 292px;
 }
 
-.home-venus-dark .text-wrapper-10 {
+.telas-dark .text-wrapper-10 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -409,18 +336,13 @@
   width: 150px;
 }
 
-.home-venus-dark .component {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/fachadeiroa-1-1@2x.png) !important;
+.telas-dark .component {
   left: 26px !important;
   position: absolute !important;
   top: 19px !important;
 }
 
-.home-venus-dark .flip-fachadeiro-instance {
-  background-image: url(https://c.animaapp.com/VEoDEv2v/img/image-16-1@2x.png) !important;
-}
-
-.home-venus-dark .prote-o-de-queda-de {
+.telas-dark .prote-o-de-queda-de {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 15px;
@@ -433,7 +355,7 @@
   width: 263px;
 }
 
-.home-venus-dark .tela-estuque {
+.telas-dark .tela-estuque {
   height: 433px;
   left: 632px;
   position: absolute;
@@ -441,7 +363,7 @@
   width: 296px;
 }
 
-.home-venus-dark .text-wrapper-11 {
+.telas-dark .text-wrapper-11 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -454,13 +376,13 @@
   width: 119px;
 }
 
-.home-venus-dark .flip-estuque-instance {
+.telas-dark .flip-estuque-instance {
   left: 24px !important;
   position: absolute !important;
   top: 19px !important;
 }
 
-.home-venus-dark .refor-ar-argamassa {
+.telas-dark .refor-ar-argamassa {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 15px;
@@ -473,13 +395,13 @@
   width: 205px;
 }
 
-.home-venus-dark .flip-mosquiteiro-instance {
+.telas-dark .flip-mosquiteiro-instance {
   left: 22px !important;
   position: absolute !important;
   top: 19px !important;
 }
 
-.home-venus-dark .text-wrapper-12 {
+.telas-dark .text-wrapper-12 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -493,13 +415,13 @@
   width: 119px;
 }
 
-.home-venus-dark .flip-viveiro-instance {
+.telas-dark .flip-viveiro-instance {
   left: 23px !important;
   position: absolute !important;
   top: 19px !important;
 }
 
-.home-venus-dark .cria-o-de-aves-prote {
+.telas-dark .cria-o-de-aves-prote {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 15px;
@@ -512,13 +434,13 @@
   width: 188px;
 }
 
-.home-venus-dark .flip-galinheiro-instance {
+.telas-dark .flip-galinheiro-instance {
   left: 20px !important;
   position: absolute !important;
   top: 18px !important;
 }
 
-.home-venus-dark .galinheiros-viveiros {
+.telas-dark .galinheiros-viveiros {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 15px;
@@ -531,25 +453,25 @@
   width: 160px;
 }
 
-.home-venus-dark .flip-pinteiro-instance {
+.telas-dark .flip-pinteiro-instance {
   left: 22px !important;
   position: absolute !important;
   top: 18px !important;
 }
 
-.home-venus-dark .flip-ondulada-instance {
+.telas-dark .flip-ondulada-instance {
   left: 21px !important;
   position: absolute !important;
   top: 19px !important;
 }
 
-.home-venus-dark .flip-alambrado-instance {
+.telas-dark .flip-alambrado-instance {
   left: 25px !important;
   position: absolute !important;
   top: 26px !important;
 }
 
-.home-venus-dark .text-wrapper-13 {
+.telas-dark .text-wrapper-13 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -562,7 +484,7 @@
   width: 153px;
 }
 
-.home-venus-dark .cercamento {
+.telas-dark .cercamento {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 15px;
@@ -575,32 +497,15 @@
   width: 130px;
 }
 
-.home-venus-dark .type-telas {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 15px;
-  height: 36px;
-  left: 0px;
-  position: absolute;
-  top:65px;
-  width: 124px;
-}
-
-/* .home-venus-dark .type-telas {
+.telas-dark .type-telas {
   height: 36px;
   left: 11px;
   position: absolute;
-  top: 299px;
+  top: 0px;
   width: 94px;
-} */
-
-.home-venus-dark .type-telas .button .text-wrapper-14 {
-  color: white;
-  position: initial;
-  height: auto;
 }
 
-.home-venus-dark .text-wrapper-14 {
+.telas-dark .text-wrapper-14 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 24px;
@@ -613,7 +518,7 @@
   width: 92px;
 }
 
-.home-venus-dark .top-section {
+.telas-dark .top-section {
   display: flex;
   justify-content: space-between;
   height: 231px;
@@ -623,7 +528,7 @@
   width: 1240px;
 }
 
-.home-venus-dark .alambrado {
+.telas-dark .alambrado {
   background-size: 100% 100%;
   height: 231px;
   left: 0;
@@ -632,7 +537,7 @@
   width: 608px;
 }
 
-.home-venus-dark .ondulada {
+.telas-dark .ondulada {
   background-size: 100% 100%;
   height: 231px;
   left: 632px;
@@ -641,7 +546,7 @@
   width: 608px;
 }
 
-.home-venus-dark .text-wrapper-15 {
+.telas-dark .text-wrapper-15 {
   color: #1d1932;
   font-family: "Poppins", Helvetica;
   font-size: 14px;
@@ -654,7 +559,7 @@
   top: 674px;
 }
 
-.home-venus-dark .vector {
+.telas-dark .vector {
   height: 18px;
   left: 80px;
   position: absolute;
@@ -662,7 +567,7 @@
   width: 18px;
 }
 
-.home-venus-dark .header {
+.telas-dark .header {
   background-color: transparent;
   height: 87px;
   left: 100px;
@@ -671,7 +576,7 @@
   width: 1240px;
 }
 
-.home-venus-dark .whatsapp-logo {
+.telas-dark .whatsapp-logo {
   height: 21px !important;
   left: 1219px !important;
   position: absolute !important;
@@ -679,7 +584,7 @@
   width: 21px !important;
 }
 
-.home-venus-dark .instagram-1 {
+.telas-dark .instagram-1 {
   height: 19px !important;
   left: 1185px !important;
   position: absolute !important;
@@ -687,15 +592,7 @@
   width: 19px !important;
 }
 
-.home-venus-dark .input {
-  height: 51px;
-  left: 211px;
-  position: absolute;
-  top: 13px;
-  width: 446px;
-}
-
-.home-venus-dark .overlap-group-2 {
+.telas-dark .overlap-group-2 {
   background-color: #1d1932;
   border-radius: 12px;
   height: 51px;
@@ -703,7 +600,7 @@
   width: 444px;
 }
 
-.home-venus-dark .text-wrapper-16 {
+.telas-dark .text-wrapper-16 {
   color: #68676e;
   font-family: "Poppins", Helvetica;
   font-size: 20px;
@@ -717,16 +614,7 @@
   width: 248px;
 }
 
-.home-venus-dark .search {
-  height: 28px;
-  left: 22px;
-  object-fit: cover;
-  position: absolute;
-  top: 12px;
-  width: 33px;
-}
-
-.home-venus-dark .logotipo-branco {
+.telas-dark .logotipo-branco {
   height: 87px;
   left: 0;
   position: absolute;
@@ -734,8 +622,7 @@
   width: 122px;
 }
 
-.home-venus-dark .mode {
-  
+.telas-dark .mode {
   height: 19px;
   left: 1152px;
   object-fit: cover;
