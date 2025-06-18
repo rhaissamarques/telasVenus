@@ -9,6 +9,7 @@ import { MosquiteiroDark } from "./MosquiteiroDark/MosquiteiroDark.jsx";
 import { EstuqueDark } from "./EstuqueDark/EstuqueDark.jsx";
 import { FachadeiroDark } from "./FachadeiroDark/FachadeiroDark.jsx";
 import { TelasDark } from "./TelasDark/TelasDark.jsx"
+import { TapumeDark } from "./TapumeDark/TapumeDark.jsx"
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: "/fachadeiro-dark",
     element: <FachadeiroDark />
+  },
+  {
+    path: "/tapume-dark",
+    element: <TapumeDark />
   }
 ])
 

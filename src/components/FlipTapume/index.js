@@ -1,0 +1,1 @@
+export { FlipTapume } from "./FlipTapume";

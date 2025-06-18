@@ -12,6 +12,7 @@ import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
 import "./styleTelas.css";
 import { Button } from "../../components/Button"
 import { ButtonDivider4 } from "../../components/ButtonDivider4";
+import { CardTapume } from "../../components/CardTapume/cardTapume";
 
 export const TelasDark = () => {
   const navigate = useNavigate();
@@ -71,6 +72,7 @@ export const TelasDark = () => {
               <CardMosquiteiro />
               <CardEstuque />
               <CardFachadeiro />
+              <CardTapume />
             </div>
           </div>
         </div>

@@ -1,0 +1,27 @@
+.flip-tapume {
+  height: 190px;
+  width: 247px;
+}
+
+.flip-tapume .back-side-tapume {
+  background-image: url(../images/flipTapume2.svg);
+  background-size: 100% 100%;
+  height: 190px;
+}
+
+.flip-tapume .image-3 {
+  height: 190px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 247px;
+}
+
+.flip-tapume.property-1-0-component-1 {
+  background-image: url(../images/flipTapume2.svg);
+  background-size: 100% 100%;
+}
+
+.flip-tapume.flip-tapume.property-1-0-component-2 .back-side-tapume {
+  position: relative;
+}

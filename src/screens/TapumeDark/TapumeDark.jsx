@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "../../components/Button";
 import { ButtonDivider4 } from "../../components/ButtonDivider4";
 import { Instagram1 } from "../../icons/Instagram1";
@@ -14,6 +13,11 @@ export function TapumeDark() {
   const handleClickHomeDark = () => {
     navigate('/')
   }
+
+  const hancleClickTelasDark = () => {
+    navigate('/telas-dark')
+  }
+
   return (
     <div className="detail-tela" data-model-id="218:799">
       <div className="div">
@@ -29,7 +33,7 @@ export function TapumeDark() {
           <img
             className="mode"
             alt="Mode"
-            src="https://c.animaapp.com/qn44tgT7/img/mode@2x.png"
+            src="src\components\images\sun.svg"
           />
 
           <div className="breadcrumbs">
@@ -44,6 +48,7 @@ export function TapumeDark() {
               className="button-instance"
               divClassName="design-component-instance-node"
               text="Telas"
+              onClick={hancleClickTelasDark}
             />
             <ButtonDivider4 className="button-divider" color="#BCBCBC" />
             <Button
@@ -54,63 +59,48 @@ export function TapumeDark() {
           </div>
         </header>
 
-        <div className="tela-alambrado">
+        <div className="tela-tapume">
           <img
-            className="alambrado-quadra"
-            alt="Alambrado quadra"
-            src="https://c.animaapp.com/qn44tgT7/img/alambradoquadra@2x.png"
+            className="tapume-quadra"
+            alt="Tela tapume"
+            src="src\components\images\Tapume3.svg"
           />
 
           <img
-            className="alambrado-campo"
-            alt="Alambrado campo"
-            src="https://c.animaapp.com/qn44tgT7/img/alambradocampo@2x.png"
+            className="tapume-campo"
+            alt="Tela tapume 2"
+            src="src\components\images\Tapume2.svg"
           />
 
           <img
-            className="alambrado-detalhe"
-            alt="Alambrado detalhe"
-            src="https://c.animaapp.com/qn44tgT7/img/alambradodetalhe@2x.png"
+            className="tapume-detalhe"
+            alt="Tapume detalhe"
+            src="src\components\images\Tapume1.svg"
           />
 
           <div className="overlap-group">
-            <div className="text-wrapper-2">Tela Alambrado</div>
+            <div className="text-wrapper-2">Tela Tapume</div>
 
-            <p className="a-tela-alambrado-uma">
-              A tela alambrado é uma solução versátil e eficiente para cercar e
-              proteger áreas diversas, oferecendo segurança e visibilidade.
-              Fabricada com fios de aço de alta qualidade, essa tela é projetada
-              para resistir a condições climáticas adversas, garantindo
-              durabilidade e resistência ao longo do tempo. Com uma malha
-              entrelaçada, a tela alambrado proporciona uma barreira eficaz, sem
-              comprometer a visibilidade do espaço cercado.
+            <p className="a-tela-tapume-uma">
+              A tela tapume, também conhecida como tela de sinalização, é uma solução prática e eficaz para o isolamento temporário de áreas em obras ou manutenção. Fabricada em polietileno de alta densidade (PEAD) na cor laranja vibrante, ela é leve, resistente e altamente visível, tornando-se indispensável para garantir a segurança em canteiros e vias públicas.
               <br />
               <br />
               <br />
               <br />
-              <br /> Cercas de Segurança: Ideal para proteger propriedades
-              residenciais, comerciais e industriais, evitando a entrada de
-              intrusos.
-              <br /> Jardinagem: Utilizada para cercar jardins, hortas e
-              canteiros, protegendo plantas de animais e proporcionando suporte
-              para trepadeiras.
+              <br /> Sinalização de Obras Viárias: Muito utilizada em rodovias, ruas e calçadas, a tela tapume serve como alerta visual para motoristas e pedestres sobre a presença de obras, prevenindo acidentes e organizando o fluxo no entorno.
+              <br /> Delimitação de Áreas de Risco: Ideal para cercar áreas em manutenção, valas abertas, escavações ou locais com risco de queda, impedindo o acesso de pessoas não autorizadas.
               <br />
-              Áreas Recreativas: Comum em parques, playgrounds e quadras
-              esportivas, garantindo a segurança de crianças e usuários.
+              Eventos e Espaços Públicos: Pode ser usada de forma temporária para organizar filas, isolar equipamentos ou delimitar áreas específicas durante eventos ao ar livre e feiras.
               <br />
-              Cercas para Animais: Perfeita para delimitar áreas para animais de
-              estimação, como cães e gatos, ou para cercar pequenos animais em
-              propriedades rurais.
-              <br />
-              Divisórias: Pode ser usada como divisória em ambientes internos ou
-              externos, criando espaços definidos sem bloquear a visão.
+              Fácil Instalação e Reutilização: Por ser leve e flexível, pode ser instalada com estacas ou amarras, e facilmente retirada ou reposicionada conforme a necessidade da obra.
+              
             </p>
           </div>
 
           <img
-            className="tabela-alambrado"
-            alt="Tabela alambrado"
-            src="https://c.animaapp.com/qn44tgT7/img/tabelaalambrado.png"
+            className="tabela-tapume"
+            alt="Tabela tapume"
+            src="src\components\images\Tapume4.svg"
           />
         </div>
       </div>
