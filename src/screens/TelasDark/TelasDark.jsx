@@ -13,6 +13,7 @@ import "./styleTelas.css";
 import { Button } from "../../components/Button"
 import { ButtonDivider4 } from "../../components/ButtonDivider4";
 import { CardTapume } from "../../components/CardTapume/cardTapume";
+import { CardPeneira } from "../../components/CardPeneira/cardPeneira";
 
 export const TelasDark = () => {
   const navigate = useNavigate();
@@ -73,6 +74,7 @@ export const TelasDark = () => {
               <CardEstuque />
               <CardFachadeiro />
               <CardTapume />
+              <CardPeneira />
             </div>
           </div>
         </div>

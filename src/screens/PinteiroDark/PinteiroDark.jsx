@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "../../components/Button";
 import { ButtonDivider4 } from "../../components/ButtonDivider4";
 import { Instagram1 } from "../../icons/Instagram1";
