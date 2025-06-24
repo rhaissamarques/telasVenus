@@ -13,6 +13,11 @@ export function MosquiteiroDark() {
   const handleClickHomeDark = () => {
     navigate('/')
   }
+
+  const handleClickTelasDark = () => {
+    navigate('/telas-dark')
+  }
+  
   return (
     <div className="detail-tela" data-model-id="218:799">
       <div className="div">
@@ -43,6 +48,7 @@ export function MosquiteiroDark() {
               className="button-instance"
               divClassName="design-component-instance-node"
               text="Telas"
+              onClick={handleClickTelasDark}
             />
             <ButtonDivider4 className="button-divider" color="#BCBCBC" />
             <Button
