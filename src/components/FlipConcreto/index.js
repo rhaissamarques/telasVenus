@@ -1,0 +1,1 @@
+export { FlipConcreto } from "./FlipConcreto";

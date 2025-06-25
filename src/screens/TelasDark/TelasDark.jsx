@@ -14,6 +14,7 @@ import { Button } from "../../components/Button"
 import { ButtonDivider4 } from "../../components/ButtonDivider4";
 import { CardTapume } from "../../components/CardTapume/cardTapume";
 import { CardPeneira } from "../../components/CardPeneira/cardPeneira";
+import { CardConcreto } from "../../components/CardConcreto/cardConcreto";
 
 export const TelasDark = () => {
   const navigate = useNavigate();
@@ -75,6 +76,7 @@ export const TelasDark = () => {
               <CardFachadeiro />
               <CardTapume />
               <CardPeneira />
+              <CardConcreto />
             </div>
           </div>
         </div>

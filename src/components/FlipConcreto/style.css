@@ -1,0 +1,27 @@
+.flip-concreto {
+  height: 190px;
+  width: 247px;
+}
+
+.flip-concreto .back-side-concreto {
+  background-image: url(../images/flipPeneira2.svg);
+  background-size: 100% 100%;
+  height: 190px;
+}
+
+.flip-concreto .image-3 {
+  height: 190px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 247px;
+}
+
+.flip-concreto.property-1-0-component-1 {
+  background-image: url(../images/flipConcreto2.svg);
+  background-size: 100% 100%;
+}
+
+.flip-concreto.property-1-0-component-2 .back-side-concreto {
+  position: relative;
+}
