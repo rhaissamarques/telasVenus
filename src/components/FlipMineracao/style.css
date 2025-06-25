@@ -1,0 +1,27 @@
+.flip-mineracao {
+  height: 190px;
+  width: 247px;
+}
+
+.flip-mineracao .back-side-mineracao {
+  background-image: url(..\images\flipMineracao2.svg);
+  background-size: 100% 100%;
+  height: 190px;
+}
+
+.flip-mineracao .image-3 {
+  height: 190px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 247px;
+}
+
+.flip-mineracao.property-1-0-component-1 {
+  background-image: url(../images/flipMineracao2.svg);
+  background-size: 100% 100%;
+}
+
+.flip-mineracao.property-1-0-component-2 .back-side-mineracao {
+  position: relative;
+}

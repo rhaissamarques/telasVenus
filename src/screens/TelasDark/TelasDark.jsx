@@ -16,6 +16,7 @@ import { CardTapume } from "../../components/CardTapume/cardTapume";
 import { CardPeneira } from "../../components/CardPeneira/cardPeneira";
 import { CardConcreto } from "../../components/CardConcreto/cardConcreto";
 import { CardSoldada } from "../../components/CardSoldada/cardSoldada";
+import { CardMineracao } from "../../components/CardMineracao/cardMineracao";
 
 export const TelasDark = () => {
   const navigate = useNavigate();
@@ -79,6 +80,7 @@ export const TelasDark = () => {
               <CardPeneira />
               <CardConcreto />
               <CardSoldada />
+              <CardMineracao />
             </div>
           </div>
         </div>

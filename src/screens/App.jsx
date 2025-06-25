@@ -13,6 +13,7 @@ import { TapumeDark } from "./TapumeDark/TapumeDark.jsx"
 import { PeneiraDark } from "./PeneiraDark/PeneiraDark.jsx";
 import { ConcretoDark } from "./ConcretoDark/ConcretoDark.jsx";
 import { SoldadaDark } from "./SoldadaDark/SoldadaDark.jsx";
+import { MineracaoDark } from "./MineracaoDark/MineracaoDark.jsx";
 
 const router = createBrowserRouter([
   {
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
   {
     path: "/soldada-dark",
     element: <SoldadaDark />
+  },
+  {
+    path: "/mineracao-dark",
+    element: <MineracaoDark />
   }
 ])
 
