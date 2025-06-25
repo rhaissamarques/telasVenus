@@ -1,0 +1,1 @@
+export { FlipAlvenaria } from "./FlipAlvenaria";
