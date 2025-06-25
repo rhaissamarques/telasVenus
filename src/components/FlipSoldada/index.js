@@ -1,0 +1,1 @@
+export { FlipSoldada } from "./FlipSoldada";

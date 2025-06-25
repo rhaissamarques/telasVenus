@@ -15,6 +15,7 @@ import { ButtonDivider4 } from "../../components/ButtonDivider4";
 import { CardTapume } from "../../components/CardTapume/cardTapume";
 import { CardPeneira } from "../../components/CardPeneira/cardPeneira";
 import { CardConcreto } from "../../components/CardConcreto/cardConcreto";
+import { CardSoldada } from "../../components/CardSoldada/cardSoldada";
 
 export const TelasDark = () => {
   const navigate = useNavigate();
@@ -77,6 +78,7 @@ export const TelasDark = () => {
               <CardTapume />
               <CardPeneira />
               <CardConcreto />
+              <CardSoldada />
             </div>
           </div>
         </div>
