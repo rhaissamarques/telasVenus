@@ -8,7 +8,7 @@ export const FlipConcreto = ({ property1, className }) => {
 
   return (
     <div
-      className={`flip-peneira property-1-0-${state.property1} ${className}`}
+      className={`flip-concreto property-1-0-${state.property1} ${className}`}
       onMouseEnter={() => {
         dispatch("mouse_enter");
       }}
