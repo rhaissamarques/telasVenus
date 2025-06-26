@@ -1,0 +1,1 @@
+export { DetailTela } from "./DetailTela";
