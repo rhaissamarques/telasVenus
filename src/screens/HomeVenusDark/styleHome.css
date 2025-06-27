@@ -586,13 +586,15 @@
   width: 124px;
 }
 
-/* .home-venus-dark .type-telas {
+.home-venus-dark .button .text-wrapper {
+  color: white;
+  font-family: "Poppins", Helvetica;
+  font-size: 24px;
   height: 36px;
-  left: 11px;
+  left: 10px;
   position: absolute;
-  top: 299px;
-  width: 94px;
-} */
+  font-weight: 600;
+}
 
 .home-venus-dark .type-telas .button .text-wrapper-14 {
   color: white;
