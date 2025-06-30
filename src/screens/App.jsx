@@ -19,7 +19,7 @@ import { GradilDark } from "./GradilDark/GradilDark.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/telasVenus",
     element: <HomeVenusDark />
   },
   {
