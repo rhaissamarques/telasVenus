@@ -30,8 +30,8 @@ export const TelasDark = () => {
     <div className="telas-dark" data-model-id="101:6082">
       <div className="div-2">
         <header className="header">
-          <Whatsapplogo1 className="whatsapp-logo" />
-          <Instagram1 className="instagram-1" />
+          {/* <Whatsapplogo1 className="whatsapp-logo" />
+          <Instagram1 className="instagram-1" /> */}
 
           <img
             className="logotipo-branco"

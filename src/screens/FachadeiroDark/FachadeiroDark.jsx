@@ -23,8 +23,8 @@ export function FachadeiroDark() {
     <div className="detail-tela" data-model-id="218:799">
       <div className="div">
         <header className="header">
-          <Whatsapplogo1 className="whatsapp-logo" />
-          <Instagram1 className="instagram-1" />
+          {/* <Whatsapplogo1 className="whatsapp-logo" />
+          <Instagram1 className="instagram-1" /> */}
           <img
             className="logotipo-branco"
             alt="Logotipo branco"
