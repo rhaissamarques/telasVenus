@@ -1,7 +1,5 @@
 import { Button } from "../../components/Button";
 import { ButtonDivider4 } from "../../components/ButtonDivider4";
-// import { Instagram1 } from "../../icons/Instagram1";
-// import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
 import "./styleOndulada.css";
 import { useNavigate } from "react-router-dom";
 
@@ -16,8 +14,6 @@ export const OnduladaDark = () => {
     <div className="detail-tela-ondulada" data-model-id="251:309">
       <div className="div">
         <header className="header">
-          {/* <Whatsapplogo1 className="whatsapp-logo" />
-          <Instagram1 className="instagram-1" /> */}
           <img
             className="logotipo-branco"
             alt="Logotipo branco"
