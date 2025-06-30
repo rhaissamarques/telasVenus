@@ -1,7 +1,7 @@
 import { Button } from "../../components/Button";
 import { ButtonDivider4 } from "../../components/ButtonDivider4";
-import { Instagram1 } from "../../icons/Instagram1";
-import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
+// import { Instagram1 } from "../../icons/Instagram1";
+// import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
 import "./styleConcreto.css";
 import { useNavigate } from "react-router-dom";
 

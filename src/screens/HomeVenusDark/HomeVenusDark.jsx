@@ -7,8 +7,8 @@ import { CardMosquiteiro } from "../../components/CardMosquiteiro/cardMosquiteir
 import { CardOndulada } from "../../components/CardOndulada/cardOndulada";
 import { CardPinteiro } from "../../components/CardPinteiro/cardPinteiro";
 import { CardViveiro } from "../../components/CardViveiro/cardViveiro";
-import { Instagram1 } from "../../icons/Instagram1";
-import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
+// import { Instagram1 } from "../../icons/Instagram1";
+// import { Whatsapplogo1 } from "../../icons/Whatsapplogo1";
 import "./styleHome.css";
 import { Button } from "../../components/Button";
 
