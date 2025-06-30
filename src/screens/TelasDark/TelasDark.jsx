@@ -22,7 +22,7 @@ export const TelasDark = () => {
   const navigate = useNavigate();
 
   const handleClickHomeDark = () => {
-    navigate("/");
+    navigate("/telasVenus");
   };
   return (
     <div className="telas-dark" data-model-id="101:6082">

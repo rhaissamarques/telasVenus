@@ -8,7 +8,7 @@ export const OnduladaDark = () => {
     const navigate = useNavigate();
 
   const handleClickHomeDark = () => {
-    navigate('/')
+    navigate('/telasVenus')
   }
   return (
     <div className="detail-tela-ondulada" data-model-id="251:309">

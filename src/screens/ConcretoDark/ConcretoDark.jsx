@@ -8,7 +8,7 @@ export function ConcretoDark() {
   const navigate = useNavigate();
   
   const handleClickHomeDark = () => {
-    navigate('/')
+    navigate('/telasVenus')
   }
 
   const handleClickTelasDark = () => {

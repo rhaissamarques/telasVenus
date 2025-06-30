@@ -8,7 +8,7 @@ export function MineracaoDark() {
   const navigate = useNavigate();
   
   const handleClickHomeDark = () => {
-    navigate('/')
+    navigate('/telasVenus')
   }
 
   const handleClickTelasDark = () => {

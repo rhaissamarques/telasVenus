@@ -9,7 +9,7 @@ export function AlambradoDark() {
   const navigate = useNavigate();
 
   const handleClickHomeDark = () => {
-    navigate('/')
+    navigate('/telasVenus')
   }
   return (
     <div className="detail-tela" data-model-id="218:799">

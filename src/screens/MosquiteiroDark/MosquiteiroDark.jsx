@@ -9,7 +9,7 @@ export function MosquiteiroDark() {
   const navigate = useNavigate();
 
   const handleClickHomeDark = () => {
-    navigate('/')
+    navigate('/telasVenus')
   }
 
   const handleClickTelasDark = () => {

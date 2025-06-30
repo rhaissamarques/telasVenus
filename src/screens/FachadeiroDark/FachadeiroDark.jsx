@@ -9,7 +9,7 @@ export function FachadeiroDark() {
   const navigate = useNavigate();
 
   const handleClickHomeDark = () => {
-    navigate('/')
+    navigate('/telasVenus')
   }
 
   const handleClickTelasDark = () => {

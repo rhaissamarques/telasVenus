@@ -9,7 +9,7 @@ export function ViveiroDark() {
   const navigate = useNavigate();
 
   const handleClickHomeDark = () => {
-    navigate('/')
+    navigate('/telasVenus')
   } 
 
   const handleClickTelasDark = () => {
